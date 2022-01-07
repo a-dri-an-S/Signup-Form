@@ -1,9 +1,12 @@
-import './App.css';
+import Form from "./components/Form";
+import FormIntro from "./components/FormIntro";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <main className="App">
+      <FormIntro />
+      <Form />
+    </main>
   );
 }
 
